@@ -1,0 +1,91 @@
+﻿/*colotbootom #0b9146*/
+/*<img src="img/heder/dottedcircle.svg" alt="MAIN">*/
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../font/Montserrat-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../img/bg.jpg');
+}
+
+.header {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    height: 73px;
+    background-color: #ffffff;
+}
+
+.head-row {
+    padding-top: 24px;
+}
+
+.brd {
+    border-bottom: 1px solid transparent;
+    border-color: #e7e7e7;
+}
+
+ul.vcenter li {
+    display: inline;
+    padding: 0 20px;
+    border-right: 1px dotted #ccc;
+}
+
+    ul.vcenter li:nth-last-child(1) {
+        border-right: none;
+    }
+
+span.menuseparator {
+    margin-top: 4px;
+    position: absolute;
+    width: 1px;
+    height: 16px;
+    background-image: url('../img/heder/Layer-5.png');
+}
+
+.nounderline a {
+    text-decoration: none;
+    font-size: 13pt;
+    color: #4d4d4d;
+    font-weight: 800;
+}
+
+    .nounderline a:hover {
+        color: #0b9146;
+    }
+
+.search {
+    margin-top: 7px;
+    width: 11px;
+    height: 11px;
+    background-image: url('../img/heder/searcher.svg');
+}
+
+.select-list {
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/heder/select-list.svg');
+}
+
+.border-ivon-right {
+    height: 25px;
+    border-right: 1px dotted #ccc;
+}
+
+.border-ivon-left {
+    height: 25px;
+    border-left: 1px dotted #ccc;
+}
+
+.main {
+}
+
+.foter {
+}
