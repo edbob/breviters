@@ -26,6 +26,13 @@ body {
     padding-top: 24px;
 }
 
+.log-row {
+    padding-top: 48px;
+}
+.log-row i{
+    padding-right:10px;
+}
+
 .brd {
     border-bottom: 1px solid transparent;
     border-color: #e7e7e7;
