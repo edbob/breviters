@@ -1,16 +1,12 @@
 ﻿/*colotbootom #0b9146*/
 /*<img src="img/heder/dottedcircle.svg" alt="MAIN">*/
-@font-face {
-    font-family: 'Montserrat-Regular';
-    src: url('../font/Montserrat-Regular.ttf') format('truetype');
-}
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
+    font-family:"Montserrat-Regular", sans-serif;
     background-image: url('../img/bg.jpg');
 }
 
@@ -36,6 +32,9 @@ body {
 .brd {
     border-bottom: 1px solid transparent;
     border-color: #e7e7e7;
+}
+a i{
+    color:#ccc;
 }
 
 ul.vcenter li {
@@ -66,20 +65,6 @@ span.menuseparator {
     .nounderline a:hover {
         color: #0b9146;
     }
-
-.search {
-    margin-top: 7px;
-    width: 11px;
-    height: 11px;
-    background-image: url('../img/heder/searcher.svg');
-}
-
-.select-list {
-    margin-top: 5px;
-    width: 20px;
-    height: 20px;
-    background-image: url('../img/heder/select-list.svg');
-}
 
 .border-ivon-right {
     height: 25px;
