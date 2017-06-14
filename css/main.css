@@ -1,5 +1,4 @@
 ﻿/*colotbootom #0b9146*/
-/*<img src="img/heder/dottedcircle.svg" alt="MAIN">*/
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,12 @@ body {
     background-image: url('../img/bg.jpg');
 }
 
-.header {
+/*--header--*/
+header {
+    width: 750px;
+    background-image: url('../img/bg.jpg');
+}
+/*.header {
     position: relative;
     margin-right: auto;
     margin-left: auto;
@@ -80,4 +84,4 @@ span.menuseparator {
 }
 
 .foter {
-}
+}*/
