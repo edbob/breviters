@@ -23,11 +23,12 @@ nav {
 
 .menu-nav {
     list-style-type: none;
+    width:650px;
 }
 
     .menu-nav li {
         display: inline-block;
-        padding: 0 20px;
+        padding: 0 10px;
         border-right: 1px dotted #ccc;
     }
 
@@ -46,7 +47,10 @@ nav {
         text-decoration:none;
         color: #0b9146;
     }
-    .hover-color i:hover{
+    .fai-color a{
+        color:#ccc;
+    }
+    .fai-color i:hover{
         color: #0b9146;
     }
 /*.header {
