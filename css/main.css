@@ -23,104 +23,46 @@ nav {
 
 .menu-nav {
     list-style-type: none;
-    width:650px;
+    width: 650px;
+    margin: 0 auto;
 }
 
     .menu-nav li {
         display: inline-block;
-        padding: 0 10px;
+        padding: 0 20px;
         border-right: 1px dotted #ccc;
+        line-height: 20px;
     }
 
-    .menu-nav li:nth-last-child(1) {
-        border-right: none;
-    }
+        .menu-nav li:nth-last-child(1) {
+            border-right: none;
+        }
 
     .menu-nav a {
         text-decoration: none;
-        font-size: 13pt;
+        font-size: 10pt;
         color: #4d4d4d;
         font-family: "Montserrat-Bold", sans-serif;
     }
-    .menu-nav a:hover,
-    .menu-nav a:focus{
-        text-decoration:none;
-        color: #0b9146;
-    }
-    .fai-color a{
-        color:#ccc;
-    }
-    .fai-color i:hover{
-        color: #0b9146;
-    }
-/*.header {
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    height: 73px;
-    background-color: #ffffff;
+
+        .menu-nav a:hover,
+        .menu-nav a:focus {
+            text-decoration: none;
+            color: #0b9146;
+        }
+
+.fai-color a {
+    color: #ccc;
 }
 
-.head-row {
-    padding-top: 24px;
+.fai-color i:hover {
+    color: #0b9146;
 }
 
-.log-row {
-    padding-top: 48px;
+.brev-form {
+    font-family: "Montserrat-Regular",sans-serif;
+    margin-top: 0 !important;
 }
-.log-row i{
-    padding-right:10px;
+.brev-form .sform input{
+    width: 75px;
 }
-
-.brd {
-    border-bottom: 1px solid transparent;
-    border-color: #e7e7e7;
-}
-a i{
-    color:#ccc;
-}
-
-ul.vcenter li {
-    display: inline;
-    padding: 0 20px;
-    border-right: 1px dotted #ccc;
-}
-
-    ul.vcenter li:nth-last-child(1) {
-        border-right: none;
-    }
-
-span.menuseparator {
-    margin-top: 4px;
-    position: absolute;
-    width: 1px;
-    height: 16px;
-    background-image: url('../img/heder/Layer-5.png');
-}
-
-.nounderline a {
-    text-decoration: none;
-    font-size: 13pt;
-    color: #4d4d4d;
-    font-weight: 800;
-}
-
-    .nounderline a:hover {
-        color: #0b9146;
-    }
-
-.border-ivon-right {
-    height: 25px;
-    border-right: 1px dotted #ccc;
-}
-
-.border-ivon-left {
-    height: 25px;
-    border-left: 1px dotted #ccc;
-}
-
-.main {
-}
-
-.foter {
-}*/

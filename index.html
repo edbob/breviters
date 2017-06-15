@@ -11,45 +11,61 @@
     <link href="libs/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />
     <script src="libs/jquery-3.2.1.min.js"></script>
     <script src="libs/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
-
+    <script src="js/main.js"></script>
 </head>
 <body>
-<!--Header-->
+    <!--Header-->
     <header>
         <nav>
             <div class="container">
                 <div class="row">
-                    <div class="navbar-header fai-color">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-nav">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-nav" aria-expanded="false">
                             <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
                         </button>
-                        <a href="#">
-                            <i class="fa fa-align-left" aria-hidden="true"></i>
-                        </a>
                     </div>
                     <div class="collapse navbar-collapse" id="top-nav">
+                        <div class="fai-color navbar-left">
+                            <a href="#">
+                                <i class="fa fa-align-left" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="fai-color navbar-right">
+                            <a href="#" id="brev-searsh" class="navbar-right">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                            <form name="myform" class="navbar-form brev-form navbar-right" style="display:none;">
+                                <div class="form-group sform">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                            </form>
+                        </div>
                         <ul class="menu-nav">
-                            <li><a href="">MAIN</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    MAIN <i class="fa fa-chevron-down fa-fw" aria-hidden="true"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">item1</a></li>
+                                    <li><a href="#">item2</a></li>
+                                    <li><a href="#">item3</a></li>
+                                    <li><a href="#">item4</a></li>
+                                    <li><a href="#">item5</a></li>
+                                </ul>
+                            </li>
                             <li><a href="">DEMOS</a></li>
                             <li><a href="">PORTFOLIO</a></li>
                             <li><a href="">BLOG</a></li>
                             <li><a href="">SHORTCODES</a></li>
                         </ul>
-                        <form class="navbar-form navbar-right">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search">
-                                <i class="fa fa-search" aria-hidden="true"></i>
-                            </div>
-                            <button type="submit" class="btn btn-default">Submit</button>
-                        </form>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-<!--Logo-top-->
-<!--carousel-->
-<!--main menu-->
-<!--futer-->
+    <!--Logo-top-->
+    <!--carousel-->
+    <!--main menu-->
+    <!--futer-->
 </body>
 </html>
