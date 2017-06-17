@@ -1,39 +1,42 @@
 ﻿//This js ES5, frontend code for manipulation css style.
 (function () {
-    window.onload = function () {
-        var fsearch = getId("brev-searsh");
-        if (window.addEventListener)
-            fsearch.addEventListener("click", init, false);
-        else if (window.attachEvent)//IE
-            window.attachEvent("onclick", init);
+    if (window.addEventListener)
+        window.addEventListener("load", init, false);
+    else if (window.attachEvent)
+        window.attachEvent("onload", init);
 
-    };
-    //Open search panel and double click close pan.
-    var flag;
     function init() {
-        if (flag) {
+        var fsearch = getId("brev-searsh");
+        var nalign = getId("brev-align");
+
+        if (fsearch.addEventListener) fsearch.addEventListener("click", Osearch, false);
+        if (fsearch.attachEvent) fsearch.attachEvent("onclick", Osearch);
+
+        if (nalign.addEventListener) nalign.addEventListener("click", alignsz, false);
+        if (nalign.attachEvent) nalign.attachEvent("onclick", alignsz);
+    };
+
+    //Open search panel and double click close pan.
+    var flagA;
+    function Osearch() {
+        if (flagA) {
             var f = document.myform;
             f.style.display = "none";
         } else {
             var f = document.myform;
             f.style.display = "block";
         };
-        flag = !flag;
+        flagA = !flagA;
     };
+
     //Change size words on the site.
-    function makeSizer(size) {
-        return function () {
-            document.body.style.fontSize = size + "px";
+    function alignsz() {
+        var o = document.getElementsByTagName('p');
+        for (var i = 0; i < o.length; i++) {
+            o[i].style.fontSize = (o[i].style.fontSize == '36px') ? '16px' : '36px';
         };
     };
 
-    var size16 = makeSizer(16);
-    var size20 = makeSizer(20);
-    var size24 = makeSizer(24);
-
-    document.getElementById("size-16").onclick = size16;
-    document.getElementById("size-20").onclick = size20;
-    document.getElementById("size-24").onclick = size24;
     //..
     function getId(id) {
         return document.getElementById(id)
