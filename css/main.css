@@ -63,6 +63,54 @@ nav {
     font-family: "Montserrat-Regular",sans-serif;
     margin-top: 0 !important;
 }
-.brev-form .sform input{
-    width: 75px;
+
+    .brev-form .sform input {
+        width: 75px;
+    }
+
+.menu-brend-icon {
+    padding-top: 40px;
 }
+
+    .menu-brend-icon i {
+        padding: 0 5px;
+    }
+
+    .menu-brend-icon a {
+        color: #ccc;
+    }
+
+        .menu-brend-icon a:hover {
+            color: #333;
+        }
+
+.tagline-line p {
+    text-align: center;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    padding: 20px 0 20px 0;
+    overflow: hidden;
+}
+
+    .tagline-line p:before,
+    .tagline-line p:after {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        box-sizing: border-box;
+        width: 100%;
+        height: 1px;
+        background: #0b9146;
+        border: solid #FFF;
+        border-width: 0 10px;
+    }
+
+    .tagline-line p:before {
+        margin-left: -100%;
+    }
+
+    .tagline-line p:after {
+        margin-right: -100%;
+    }
+
