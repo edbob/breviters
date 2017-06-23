@@ -68,8 +68,12 @@ nav {
         width: 75px;
     }
 
+.main-menu{
+
+}
 .menu-brend-icon {
     padding-top: 40px;
+    text-align: center;
 }
 
     .menu-brend-icon i {
@@ -85,9 +89,11 @@ nav {
         }
 
 .tagline-line p {
+    margin: 0 auto;
+    width: 300px;
     text-align: center;
     font-family: "Montserrat-Regular", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-style: italic;
     padding: 20px 0 20px 0;
     overflow: hidden;
