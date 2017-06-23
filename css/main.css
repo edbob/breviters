@@ -51,6 +51,7 @@ nav {
             color: #0b9146;
         }
 
+/*Logo-brend-icon*/
 .fai-color a {
     color: #ccc;
 }
@@ -68,11 +69,11 @@ nav {
         width: 75px;
     }
 
-.main-menu{
-
+.main-menu {
 }
+
 .menu-brend-icon {
-    padding-top: 40px;
+    padding-top: 60px;
     text-align: center;
 }
 
@@ -88,14 +89,18 @@ nav {
             color: #333;
         }
 
+    .menu-brend-icon img {
+        padding-bottom: 70px;
+    }
+
 .tagline-line p {
     margin: 0 auto;
-    width: 300px;
+    width: 350px;
     text-align: center;
     font-family: "Montserrat-Regular", sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     font-style: italic;
-    padding: 20px 0 20px 0;
+    padding: 30px 0 30px 0;
     overflow: hidden;
 }
 
@@ -119,4 +124,7 @@ nav {
     .tagline-line p:after {
         margin-right: -100%;
     }
-
+/*carousel*/
+.my-carousel {
+    background-color: #595959;
+}

@@ -29,11 +29,11 @@
         flagA = !flagA;
     };
 
-    //Change size words on the site.
+    //Change textAlign on the site.
     function alignsz() {
         var o = document.getElementsByTagName('p');
         for (var i = 0; i < o.length; i++) {
-            o[i].style.fontSize = (o[i].style.fontSize == '36px') ? '16px' : '36px';
+            o[i].style.textAlign = (o[i].style.textAlign == 'left') ? '' : 'left';
         };
     };
 
