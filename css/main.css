@@ -128,3 +128,12 @@ nav {
 .my-carousel {
     background-color: #595959;
 }
+.my-carousel a{
+    top: 50%;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+span.my-carsel-icon{
+    font-size: 15px;
+}
