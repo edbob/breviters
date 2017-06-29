@@ -61,16 +61,13 @@ nav {
 }
 
 .brev-form {
-    font-family: "Montserrat-Regular",sans-serif;
+    font-family: "Montserrat-Regular", sans-serif;
     margin-top: 0 !important;
 }
 
     .brev-form .sform input {
         width: 75px;
     }
-
-.main-menu {
-}
 
 .menu-brend-icon {
     padding-top: 60px;
@@ -124,16 +121,89 @@ nav {
     .tagline-line p:after {
         margin-right: -100%;
     }
+
 /*carousel*/
 .my-carousel {
     background-color: #595959;
+    height: 100%;
+    padding: 5% 0 5% 0;
 }
-.my-carousel a{
-    top: 50%;
+
+.my-carousel-inner {
+    text-align: center;
+}
+
+    .my-carousel-inner h3 {
+        color: #fefefe;
+        font-family: "Montserrat-Bold", sans-serif;
+        width: 52%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .my-carousel-inner p {
+        font-family: "Montserrat-Italic", sans-serif;
+        width: 50%;
+        color: #d0d0d0;
+        font-style: italic;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .my-carousel a:hover,
+    .my-carousel a:focus {
+        color: #0b9146;
+        text-decoration: none;
+    }
+
+.my-control-icon {
     position: absolute;
-    height: 40px;
-    width: 40px;
+    width: 100%;
+    top: 50%;
 }
-span.my-carsel-icon{
-    font-size: 15px;
+
+    .my-control-icon a {
+        margin: 0 10% 0 10%;
+        height: 40px;
+        width: 40px;
+        background-color: #474747;
+        border: 1px solid #686868;
+        border-radius: 3px;
+        color: #fff;
+    }
+
+    .my-control-icon i {
+        margin: 14px;
+    }
+
+.my-control-left {
+    float: left;
+}
+
+.my-control-right {
+    float: right;
+}
+
+/*buttons*/
+.my-btn {
+    font-size: 12px;
+    text-transform: uppercase;
+    height: 100%;
+    margin: 20px;
+}
+
+.my-btn-success {
+    background-color: #24b965;
+    border: 1px solid #24b965;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: "Montserrat-Bold", sans-serif;
+    box-shadow: 0px 0px 0px 6px rgb(123, 123, 123);
+}
+
+    .my-btn-success span {
+    }
+
+.btn-lx {
+    padding: 10px 30px;
 }
