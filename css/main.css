@@ -150,11 +150,11 @@ nav {
         padding-bottom: 30px;
     }
 
-    .my-carousel a:hover,
-    .my-carousel a:focus {
-        color: #0b9146;
-        text-decoration: none;
-    }
+.my-carousel a:hover,
+.my-carousel a:focus {
+    color: #0b9146;
+    text-decoration: none;
+}
 
 .my-control-icon {
     position: absolute;
@@ -188,11 +188,10 @@ nav {
 .my-btn {
     font-size: 12px;
     text-transform: uppercase;
-    height: 100%;
-    margin: 20px;
 }
 
 .my-btn-success {
+    margin: 20px;
     background-color: #24b965;
     border: 1px solid #24b965;
     border-radius: 3px;
@@ -201,9 +200,33 @@ nav {
     box-shadow: 0px 0px 0px 6px rgb(123, 123, 123);
 }
 
-    .my-btn-success span {
-    }
+.my-btn-default {
+    background-color: #ffffff;
+    border: 6px solid #808080;
+    color: #000000;
+    box-shadow: 0px 0px 0px 1px #ffffff;
+}
 
-.btn-lx {
+.my-btn-posi{
+    margin-top: 27%;
+}
+
+.my-btn-lx {
     padding: 10px 30px;
+}
+
+.my-btn-md {
+    padding: 7px 30px;
+}
+
+/*main-block*/
+.main-block-sl {
+    margin: 5% 0 2% 2%;
+    text-align: center;
+    width: 350px;
+    height: 230px;
+    background: #808080;
+    float: left;
+    border: 1px solid rgba(124, 124, 124, 0.41);
+    box-shadow: 0px 0px 0px 3px #f3f2f2;
 }
