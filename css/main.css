@@ -1,6 +1,4 @@
-﻿/*colotbootom #0b9146*/
-
-body {
+﻿body {
     font-family: "Montserrat-Regular", sans-serif;
     font-size: 16px;
     min-width: 320px;
@@ -69,25 +67,28 @@ nav {
         width: 75px;
     }
 
-.menu-brend-icon {
+.menu-brend {
     padding-top: 60px;
     text-align: center;
 }
 
-    .menu-brend-icon i {
-        padding: 0 5px;
+.menu-brend img {
+    padding-bottom: 70px;
+}
+
+.brend-icon i {
+    padding: 0 5px;
+}
+
+.brend-icon a {
+    color: #ccc;
+}
+
+    .brend-icon a:hover {
+        color: #333;
     }
-
-    .menu-brend-icon a {
-        color: #ccc;
-    }
-
-        .menu-brend-icon a:hover {
-            color: #333;
-        }
-
-    .menu-brend-icon img {
-        padding-bottom: 70px;
+    .brend-icon-akcent a:hover{
+        color: #0b9146;
     }
 
 .tagline-line p {
@@ -169,11 +170,11 @@ nav {
         background-color: #474747;
         border: 1px solid #686868;
         border-radius: 3px;
-        color: #fff;
+        color: #838383
     }
 
     .my-control-icon i {
-        margin: 14px;
+            padding: 13px 16px;
     }
 
 .my-control-left {
@@ -186,6 +187,7 @@ nav {
 
 /*buttons*/
 .my-btn {
+    font-family: "Montserrat-Regular", sans-serif;
     font-size: 12px;
     text-transform: uppercase;
 }
@@ -207,7 +209,46 @@ nav {
     box-shadow: 0px 0px 0px 1px #ffffff;
 }
 
-.my-btn-posi{
+.my-btn-primary {
+    font-family: "Montserrat-Bold", sans-serif;
+    background-color: #ffffff;
+    border: 1px solid #24b965;
+    border-radius: 3px;
+    color: #24b965;
+}
+
+.my-btn-tranrent {
+    background-color: #f9f9f9;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    text-align: center;
+    color: #838383;
+}
+
+.tranrent-add {
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    background-color: #24b965;
+}
+
+.my-btn-tranrent-add {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    border-right: none;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    text-align: center;
+    color: #838383;
+}
+
+.my-btn-tranrent i{
+    color: #ffffff;
+}
+
+.my-btn-posi {
     margin-top: 27%;
 }
 
@@ -219,14 +260,98 @@ nav {
     padding: 7px 30px;
 }
 
+.my-btn-sm {
+    padding: 5px 20px;
+}
+
 /*main-block*/
-.main-block-sl {
+.main-block-center {
     margin: 5% 0 2% 2%;
     text-align: center;
     width: 350px;
     height: 230px;
     background: #808080;
     float: left;
-    border: 1px solid rgba(124, 124, 124, 0.41);
-    box-shadow: 0px 0px 0px 3px #f3f2f2;
 }
+
+.main-bl-br {
+    border: 1px solid #f3f3f3;
+    box-shadow: inset 0px 0px 0px 3px #ffffff;
+}
+
+.main-bl-left-large {
+    width: 725px;
+    margin: 5% 0 2% 3%;
+}
+
+.main-bl-left-large-up {
+    background: #666666;
+    height: 380px;
+}
+
+.main-bl-left-large-cent {
+    background: #ffffff;
+    height: 300px;
+    border: 1px solid #f3f3f3;
+}
+
+    .main-bl-left-large-cent button {
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .main-bl-left-large-cent i {
+        font-size: 6px;
+        color: #c6c6c6;
+    }
+
+    .main-bl-left-large-cent h3 {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .main-bl-left-large-cent p {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+.main-bl-left-large-dn {
+    height: 80px;
+    background-color: #f9f9f9;
+    border-right: 1px solid #f3f3f3;
+    border-left: 1px solid #f3f3f3;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.main-bl-location {
+    margin: 20px;
+}
+
+.main-bl-location-brend {
+    margin: 0 16% 0 14%;
+}
+
+.main-bl-right-gift {
+    background: #808080;
+    margin: 10% 0 2% 0%;
+    width: 340px;
+    height: 438px;
+    border: 1px solid #f3f3f3;
+    box-shadow: inset 0px 0px 0px 30px #ffffff;
+}
+
+    .main-bl-right-gift img {
+        position: absolute;
+        top: 60%;
+        margin-left: 15%;
+    }
+
+    .main-bl-right-gift p {
+        position: absolute;
+        top: 74%;
+        margin-left: 18%;
+        color: #71fab4;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: "Montserrat-Bold", sans-serif;
+    }
