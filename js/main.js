@@ -8,12 +8,16 @@
     function init() {
         var fsearch = getId("brev-searsh");
         var nalign = getId("brev-align");
+        var goTop = getId("my-go-top");
 
         if (fsearch.addEventListener) fsearch.addEventListener("click", Osearch, false);
         if (fsearch.attachEvent) fsearch.attachEvent("onclick", Osearch);
 
         if (nalign.addEventListener) nalign.addEventListener("click", alignsz, false);
         if (nalign.attachEvent) nalign.attachEvent("onclick", alignsz);
+
+        if (goTop.addEventListener) goTop.addEventListener("click", Topscroll, false);
+        if (goTop.attachEvent) goTop.attachEvent("onclick", goTop);
     };
 
     //Open search panel and double click close pan.
@@ -37,7 +41,19 @@
         };
     };
 
-    //..
+    //goTop
+    function Topscroll(e) {
+        var increment = e.pageY;
+        var timer = setInterval(function () {
+            increment -= 100;
+            window.scrollTo(0, increment);
+            if (increment <= 0) {
+                clearInterval(timer);
+            }
+        }, 20)
+    };
+
+    //.
     function getId(id) {
         return document.getElementById(id)
     };
