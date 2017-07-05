@@ -482,7 +482,7 @@ nav {
         padding: 7px 10px;
     }
 
-    #my-form-Subscribe input[type=button] {
+    #my-form-Subscribe input[type=submit] {
         background-color: #24b965;
         padding: 7px 10px;
         border-bottom: 1px solid #24b965;
@@ -526,6 +526,11 @@ nav {
     font-family: "Montserrat-Bold", sans-serif;
 }
 
-#my-go-top li:nth-child(1){
-    padding: 0;
+/*class-error*/
+input.invalid{
+    background-color:  #d9534f !important;
+}
+
+input.valid{
+    background-color: #5cb85c !important;
 }
