@@ -2,6 +2,10 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+    .mblok-large-dn span {
+        margin: 0 5%;
+        font-size: 12px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -10,12 +14,48 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    .mblok-large-dn {
+        padding: 2%;
+    }
 
+        .mblok-large-dn span {
+            margin: 2%;
+            font-size: 16px;
+        }
+
+        .mblok-large-dn input {
+            width: 100%;
+            margin-bottom: 2%;
+        }
+
+        .mblok-large-dn button {
+            width: 100%;
+            margin-top: 2%;
+        }
+
+        .mblok-large-dn button {
+            background-color: #24b965;
+            color: #fff;
+        }
+
+    .my-btn-add:after {
+        position: unset;
+        left: unset;
+        background-color: none;
+        content: none;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .mblok-large-dn {
+        padding: 1%;
+    }
 
+        .mblok-large-dn span {
+            margin: 0;
+            font-size: 10px;
+        }
 }
 
 /* Custom, iPhone Retina */

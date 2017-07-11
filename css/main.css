@@ -225,7 +225,7 @@ nav {
     color: #24b965;
 }
 
-.my-btn-transparent{
+.my-btn-transparent {
     background-color: #f9f9f9;
     border: 1px solid #dedede;
     border-radius: 3px;
@@ -318,15 +318,10 @@ nav {
 
 /*main-block*/
 .main-block-top {
-    max-width: 349px;
-    padding: 8%;
+    padding: 75px;
     text-align: center;
     background: #808080;
-    margin: 6% 0 6% 0;
-}
-
-div.main-block-top:nth-child(2n) {
-    margin: 6% 4% 6% 4%;
+    margin: 40px 0 40px 0
 }
 
 .main-bl-br {
@@ -348,7 +343,7 @@ div.main-block-top:nth-child(2n) {
 }
 
     .mblok-large-cent button {
-        margin-top: 5%;  
+        margin-top: 5%;
     }
 
     .mblok-large-cent i {
@@ -365,23 +360,24 @@ div.main-block-top:nth-child(2n) {
     }
 
 .mblok-large-dn {
-    padding: 3%;
+    padding: 5%;
     text-align: center;
     background-color: #f9f9f9;
     border-right: 1px solid #f3f3f3;
     border-left: 1px solid #f3f3f3;
     border-bottom: 2px solid #f3f3f3;
+    margin-bottom: 40px;
 }
 
-.mblok-large-brend {
-    margin: 0 10% 0 10%;
+.mblok-large-dn span{
+    margin: 0 10%;
 }
 
 .main-bl-right-gift {
     background: #808080;
     padding: 70% 0 50% 0;
     border: 1px solid #f3f3f3;
-    /*box-shadow: inset 0px 0px 0px 30px #ffffff;*/
+    box-shadow: inset 0px 0px 0px 30px #ffffff;
 }
 
     .main-bl-right-gift img {
@@ -519,10 +515,10 @@ div.main-block-top:nth-child(2n) {
 }
 
 /*class-error*/
-input.invalid{
-    background-color:  #d9534f !important;
+input.invalid {
+    background-color: #d9534f !important;
 }
 
-input.valid{
+input.valid {
     background-color: #5cb85c !important;
 }
