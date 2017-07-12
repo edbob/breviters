@@ -373,23 +373,19 @@ nav {
     margin: 0 10%;
 }
 
-.main-bl-right-gift {
+.mblok-right-gift {
     background: #808080;
-    padding: 70% 0 50% 0;
+    padding: 70% 0 25% 0;
     border: 1px solid #f3f3f3;
     box-shadow: inset 0px 0px 0px 30px #ffffff;
 }
 
-    .main-bl-right-gift img {
-        position: absolute;
-        top: 60%;
-        margin-left: 15%;
+    .mblok-right-gift img {
+        margin-left: 18%;
     }
 
-    .main-bl-right-gift p {
-        position: absolute;
-        top: 74%;
-        margin-left: 18%;
+    .mblok-right-gift p {
+        margin: 3% 0 0 20%;
         color: #71fab4;
         text-transform: uppercase;
         font-size: 12px;
@@ -397,49 +393,49 @@ nav {
     }
 
 /*blok Medium*/
-.main-bl-left-md {
-    width: 340px;
-    margin: 5% 0 2% 6%;
+.mblok-md {
+    text-align: center;
 }
 
-.main-bl-left-md-up {
+.mblok-md-up {
     background: #666666;
-    height: 190px;
+    padding: 25%
 }
 
-.main-bl-left-md-cent {
+.mblok-md-cent {
     background: #ffffff;
-    height: 250px;
     border: 1px solid #f3f3f3;
 }
 
-    .main-bl-left-md-cent button {
-        margin-top: 10%;
-        text-align: center;
+    .mblok-md-cent button {
+        margin-top: 5%;
     }
 
-    .main-bl-left-md-cent i {
+    .mblok-md-cent i {
         font-size: 6px;
         color: #c6c6c6;
     }
 
-    .main-bl-left-md-cent h4 {
-        text-align: center;
-        margin: 10% 0 10% 0;
+    .mblok-md-cent h4 {
+        margin: 5%;
         font-family: "Montserrat-Bold", sans-serif;
     }
 
-    .main-bl-left-md-cent p {
-        text-align: center;
-        margin-bottom: 5%;
+    .mblok-md-cent p {
+        margin: 5%;
     }
 
-.main-bl-left-md-dn {
-    height: 70px;
+.mblok-md-dn {
+    padding: 5%;
     background-color: #f9f9f9;
     border-right: 1px solid #f3f3f3;
     border-left: 1px solid #f3f3f3;
     border-bottom: 2px solid #f3f3f3;
+    margin-bottom: 40px;
+}
+
+.mblok-md-dn input{
+    margin-right: 5%;
 }
 
 /*foter*/

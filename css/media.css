@@ -6,10 +6,29 @@
         margin: 0 5%;
         font-size: 12px;
     }
+
+    .mblok-right-gift img {
+        width: 60%;
+    }
+    .mblok-right-gift p {
+        font-size: 10px;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    .mblok-right-gift {
+        padding: 10% 0 8% 0;
+        margin-bottom: 40px;
+    }
+        .mblok-right-gift img {
+            margin-left: 35%;
+            width: initial;
+        }
+    .mblok-right-gift p {
+        font-size: 12px;
+        margin: 1% 0 0 37%;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -83,4 +102,7 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+    .brev-form .sform input {
+         width: auto; 
+    }
 }
