@@ -13,6 +13,25 @@
     .mblok-right-gift p {
         font-size: 10px;
     }
+
+    .mblok-md-dn input {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .mblok-md-dn button {
+        width: 100%;
+        margin-top: 2%;
+        background-color: #24b965;
+        color: #fff;
+    }
+
+    .mblok-md-dn .my-btn-add:after {
+        position: unset;
+        left: unset;
+        background-color: none;
+        content: none;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -50,9 +69,6 @@
         .mblok-large-dn button {
             width: 100%;
             margin-top: 2%;
-        }
-
-        .mblok-large-dn button {
             background-color: #24b965;
             color: #fff;
         }
@@ -63,10 +79,26 @@
         background-color: none;
         content: none;
     }
+
+    .mblok-right-gift img {
+        margin-left: 25%;
+        width: initial;
+    }
+    .mblok-right-gift p {
+        margin: 1% 0 0 27%;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .mblok-right-gift img {
+        margin-left: 25%;
+        width: 50%;
+    }
+    .mblok-right-gift p {
+        font-size: 10px;
+        margin: 1% 0 2% 27%;
+    }
     .mblok-large-dn {
         padding: 1%;
     }
@@ -75,10 +107,23 @@
             margin: 0;
             font-size: 10px;
         }
+    .my-logo {
+        width: 50%;
+    }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+    .mblok-right-gift img {
+        margin-top: 5%;
+        margin-left: 38%;
+        width: 25%;
+    }
+
+    .mblok-right-gift p {
+        font-size: 6px;
+        margin: 1% 0 5% 31%;
+    }
 }
 
 
