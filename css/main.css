@@ -270,6 +270,10 @@ nav {
     padding: 7px 30px;
 }
 
+.my-btn-mdx {
+    padding: 12px 30px;
+}
+
 .my-btn-sm {
     padding: 5px 20px;
 }
@@ -480,13 +484,11 @@ nav {
 
 .my-fut-bl-center {
     background-color: #808080;
-    height: 230px;
+    padding: 8%;
 }
 
     .my-fut-bl-center button {
-        position: absolute;
-        top: 45%;
-        left: 45%;
+    margin-left: 45%;
     }
 
 .my-fut-bl-dn {
