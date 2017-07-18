@@ -58,6 +58,10 @@ nav {
     color: #0b9146;
 }
 
+#brev-searsh{
+    margin-right: 10px;
+}
+
 .brev-form {
     font-family: "Montserrat-Regular", sans-serif;
     margin-top: 0 !important;
@@ -456,6 +460,10 @@ nav {
 .my-logo-dn {
     margin: 30px 0 0 30px;
 }
+
+.my-logo-nav{
+    display: none;
+    }
 
 #my-form-Subscribe {
     display: inline-table;

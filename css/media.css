@@ -123,7 +123,11 @@
 
 @media only screen and (max-width : 767px) {
     /*--header--*/
-    header {
+    header{
+        padding-bottom: 40px;
+    }
+    .navbar-header
+    {
         background-color: #ffffff;
         border-bottom: 1px solid transparent;
         border-color: #e7e7e7;
@@ -132,28 +136,79 @@
     nav {
         position: absolute;
         width: 100%;
-        height: 100%;
-        line-height: 73px;
+        line-height: 30px;
         z-index: 9999;
     }
 
     #top-nav {
-        background-color: #808080;
+        background-color: #ffffff;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .menu-nav{
+        width: 100%;
+        margin: 20px 0 40px 0;
+        padding: 0px;
     }
 
     .menu-nav li {
         padding: 0;
         border-right: none;
-        line-height: 20px;
+        line-height: 40px;
+        display: block;
+    }
+    .menu-nav>li>a:hover,
+    .menu-nav>li>a:focus{
+        background-color: #ccc;
     }
 
-    .menu-nav a {
-        color: #fff;
+     .menu-nav>li>a{
+         display: block;
+         padding: 3px 20px;
+         line-height: 2; 
+     }
+
+    .menu-nav a:hover{
+        color: unset;
+    }
+
+    .menu-nav a:focus{
+        color: #4d4d4d;;
     }
 
     .menu-brend {
-        padding-top: 160px;
+        padding-top: 90px;
     }
+
+    .my-logo-nav{
+        display: block;
+        float: left;
+        width: 20%;
+        margin: 15px;
+    }
+
+    .my-logo{
+        display: none;
+    }
+
+    ul.dropdown-menu{
+        width: 100%;    
+        border-radius: unset;
+    }
+
+        ul.dropdown-menu>li>a:hover{
+        background-color: #ccc;    
+    }
+
+    #brev-align{
+        float: left;
+        margin-right: 20px;
+    }
+
+    .brev-form .sform input {
+        width: 100%
+    }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -181,9 +236,6 @@
         margin: 40px 0 40px 160px;
     }
 
-    .my-logo {
-        width: 50%;
-    }
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
