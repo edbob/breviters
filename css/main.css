@@ -487,6 +487,27 @@ nav {
     margin-right: 5%;
 }
 
+.mblok-info li{
+    display: block;
+    float: left;
+    text-decoration: none;
+    padding: 8px;
+    background: #282828;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.mblok-info li:hover,
+.mblok-info li:focus{
+    color: #0b9146;
+}
+
+.mblok-info a{
+    color: #fff;
+}
+
 /*foter*/
 #my-fut {
     background-color: #fff;
