@@ -53,6 +53,15 @@
         #my-form-Subscribe input[type=text] {
             text-align: center;
         }
+
+    .mblok-md {
+        width: 47%;
+        text-align: center;
+    }
+    .mblok-indent {
+        margin-left: 35px;
+    }
+
 }
 
 /* Medium Devices, Desktops */
@@ -74,6 +83,16 @@
 
     .my-logo {
         width: auto;
+    }
+
+    .mblok-md {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .mblok-indent {
+        margin-left: 0;
     }
 }
 
