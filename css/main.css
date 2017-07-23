@@ -341,13 +341,10 @@ nav {
     box-shadow: inset 0px 0px 0px 3px #ffffff;
 }
 
-.clearfix {
-    clear: both;
-}
-
 /*blok large*/
 .mblok-large {
     width: 100%;
+    clear: both;
 }
 
 .mblok-large-up {
